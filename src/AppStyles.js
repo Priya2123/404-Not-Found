@@ -69,13 +69,19 @@ export const useStyles = makeStyles((theme) => ({
   footerrow: {
     color: "#BDBDBD",
     textAlign: "center",
-    // position: "absolute",
-    left: 0,
+    position: 'absolute',
     bottom: 0,
-    right: 0,
+    left: 0,
+    right:0,
+    marginBottom: '0.5rem',
     [theme.breakpoints.down("xs")]: {
-      padding: "1rem 0",
+    position: 'relative',
+    marginTop: '4.4rem'
     },
+    [theme.breakpoints.only("sm")]: {
+        position: 'relative',
+        marginTop: '4.4rem'
+        },
   },
   footer: {
     fontFamily: "Montserrat",
