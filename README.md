@@ -40,8 +40,6 @@
 
 <img src="src/assets/final1.PNG">
 <img src="src/assets/final2.PNG">
-<img src="src/assets/final3.PNG">
-<img src="src/assets/final4.PNG">
 
 I've completed the '404 Not Found Challenge'. This one was pretty fun. 
 
