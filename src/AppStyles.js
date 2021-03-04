@@ -10,19 +10,19 @@ export const useStyles = makeStyles((theme) => ({
     color: "#333333",
     marginLeft: "3rem",
     [theme.breakpoints.down("xs")]: {
-        fontSize: "22px",
-        marginLeft: '0'
-      },
+      fontSize: "22px",
+      marginLeft: "0",
+    },
   },
   image: {
     height: "350px",
     width: "480px",
     [theme.breakpoints.down("xs")]: {
-        height: "200px",
-        width: "290px",
-        marginLeft: '0',
-        marginBottom: '3rem'
-      },
+      height: "200px",
+      width: "290px",
+      marginLeft: "0",
+      marginBottom: "3rem",
+    },
   },
   headone: {
     fontFamily: "Space Mono",
@@ -32,8 +32,8 @@ export const useStyles = makeStyles((theme) => ({
     letterSpacing: "-0.035em",
     color: "#333333",
     [theme.breakpoints.down("xs")]: {
-       fontSize:'40px'
-      },
+      fontSize: "40px",
+    },
   },
   body: {
     fontFamily: "Space Mono",
@@ -44,9 +44,9 @@ export const useStyles = makeStyles((theme) => ({
     marginTop: "1rem",
     color: "#4F4F4F",
     [theme.breakpoints.down("xs")]: {
-        fontSize:'17px',
-        width:'100%'
-       },
+      fontSize: "17px",
+      width: "100%",
+    },
   },
   btn: {
     backgroundColor: "#333333",
@@ -55,8 +55,8 @@ export const useStyles = makeStyles((theme) => ({
     marginTop: "2.5rem",
     textAlign: "center",
     [theme.breakpoints.down("xs")]: {
-        padding: '0.7rem 1.7rem',
-       },
+      padding: "0.7rem 1.7rem",
+    },
   },
   btntext: {
     color: "#FFFFFF",
@@ -69,19 +69,19 @@ export const useStyles = makeStyles((theme) => ({
   footerrow: {
     color: "#BDBDBD",
     textAlign: "center",
-    position: 'absolute',
+    position: "absolute",
     bottom: 0,
     left: 0,
-    right:0,
-    marginBottom: '0.5rem',
+    right: 0,
+    marginBottom: "0.5rem",
     [theme.breakpoints.down("xs")]: {
-    position: 'relative',
-    marginTop: '4.4rem'
+      position: "relative",
+      marginTop: "4.4rem",
     },
     [theme.breakpoints.only("sm")]: {
-        position: 'relative',
-        marginTop: '4.4rem'
-        },
+      position: "relative",
+      marginTop: "4.4rem",
+    },
   },
   footer: {
     fontFamily: "Montserrat",
